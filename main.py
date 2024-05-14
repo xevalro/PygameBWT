@@ -26,8 +26,7 @@ while pgRunning:
     screen.fill(bgColor)
     
     pg.display.flip()
-    for event in pg.event.get();
+    for event in pg.event.get():
         if event.type == pg.QUIT:
-            threading.
             running = False 
 
